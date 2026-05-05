@@ -1,6 +1,10 @@
 
 import pytest
 
+def test_suma():
+    assert 2 + 2 == 5
+
+
 # Importem les funcions i variables del fitxer original
 from Prova_escrita_03 import (
     trobar_edat_maxima,
